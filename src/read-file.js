@@ -7,8 +7,7 @@ var csv = require("csvtojson");
 convert_csv_json();
 
 function convert_csv_json() {
-	input_file1 = '../data/discovery-nlu/output/HighSchoolClasses_Analyzed.csv';
-	input_file2 = '../data/discovery-nlu/output/ElementarySchoolClasses_Analyzed.csv';
+	input_file1 = '../data/discovery-nlu/output/Hotlines_Analyzed.csv';
     const directory = '../data/manualdocs';
 	if (!fs.existsSync(directory)){
         fs.mkdirSync(directory);
@@ -36,20 +35,7 @@ function convert_csv_json() {
 	            console.error(err);
 	        }
 		}
-		csv()
-		.fromFile(input_file2)
-		.then((jsonObj2)=>{
-		    for (let j = 0; j < jsonObj2.length; j++){
-		        try {
-                            index = j + jsonObj1.length;
-		            fileName='../data/manualdocs/' + index +'_elementary.json'
-		            fs.writeFileSync(fileName, JSON.stringify(jsonObj2[j]), { mode: 0o755 });
-		        } catch(err) {
-		            // An error occurred
-		            console.error(err);
-		        }
-			}
-		})
+		
 	});	
 }
 

@@ -37,7 +37,7 @@ Notes:
 - Make sure that your input file mirrors the formatting of the input file in 
 ./data/discovery-nlu/input/ElementarySchoolClasses.csv
 """
-def extractEntities(input_filepath, output_filepath, course_level):
+def extractEntities(input_filepath, output_filepath, Demographic):
     df = pd.read_csv(input_filepath)
     (rows, _) = df.shape
     for idx in range(0, rows, 1):
@@ -66,21 +66,16 @@ def extractEntities(input_filepath, output_filepath, course_level):
             concepts_list = concepts_list + keywords_list
         df["Concepts"][idx] = concepts_list
         df["Subject"][idx] = categories_list_flattened
-        df["Level"][idx] = course_level
+        df["Demographic"][idx] = Demographic
     df.to_csv(output_filepath, index = False)
     return df
 
 
 # Sample Function Calls
 extractEntities(
-"./data/discovery-nlu/input/HighSchoolClasses.csv",
-"./data/discovery-nlu/output/HighSchoolClasses_Analyzed.csv",
-course_level="High School",
+"./data/discovery-nlu/input/Hotlines.csv",
+"./data/discovery-nlu/output/Hotlines_Analyzed.csv",
+Demographic="Youth"
 )
 
-extractEntities(
-"./data/discovery-nlu/input/ElementarySchoolClasses.csv",
-"./data/discovery-nlu/output/ElementarySchoolClasses_Analyzed.csv",
-course_level="Elementary School",
-)
 
