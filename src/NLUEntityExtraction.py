@@ -73,13 +73,13 @@ def extractEntities(input_filepath, output_filepath, course_level):
 
 # Sample Function Calls
 extractEntities(
-"../data/discovery-nlu/input/HighSchoolClasses.csv",
-"../data/discovery-nlu/output/HighSchoolClasses_Analyzed.csv",
+"./data/discovery-nlu/input/HighSchoolClasses.csv",
+"./data/discovery-nlu/output/HighSchoolClasses_Analyzed.csv",
 course_level="High School",
 )
 
 extractEntities(
-"../data/discovery-nlu/input/ElementarySchoolClasses.csv",
-"../data/discovery-nlu/output/ElementarySchoolClasses_Analyzed.csv",
+"./data/discovery-nlu/input/ElementarySchoolClasses.csv",
+"./data/discovery-nlu/output/ElementarySchoolClasses_Analyzed.csv",
 course_level="Elementary School",
 )
