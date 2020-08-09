@@ -1,0 +1,16 @@
+{
+    "Name": "Distress Centre Durham Crisis Line",
+    "Topics": ["law, government, politics", "family and parenting", "homework and study tips", "education", "children",
+        "Rape, Sexual Violence, Domestic Violence", "Grief and Loss","Mental Health",
+        "Stress Anxiety", "Suicide","School","Alcohol & Drugs","Depression","Eating Disorders","Health"],
+    "Description": "Distress Centre Durham helps people in distress to cope, by providing emotional support, crisis/suicide management and community education. Our values provide the philosophical foundations for all that we do, collectively and individually, with service users, responder volunteers, staff and our communities.",
+    "Demographic": {
+        "age:":["teen", "adult"], 
+        "gender": ["male","female", "other"],
+        "other": "none"},
+    "Region": {
+        "city": "Durham",
+        "province": "Ontario"
+    },
+    "Phone":" 905-430-2522"
+}

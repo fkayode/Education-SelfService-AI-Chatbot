@@ -1,0 +1,15 @@
+{
+    "Name": "Lesbian Gay Bi Trans Youth Line",
+    "Topics": ["Rape, Sexual Violence, Domestic Violence", "Grief and Loss","Mental Health",
+        "Stress Anxiety", "Suicide","School","Alcohol & Drugs","Depression","Eating Disorders","Health"],
+    "Description": "The Lesbian Gay Bi Trans Youth Line, founded in 1994, is a Toronto-based peer support organization for LGBT youth. Although best known for their phone support line, the organization also offers Internet chat and e-mail support services, as well as promoting and supporting other events and programs for LGBT youth.",
+    "Demographic": {
+        "age:":["teen"], 
+        "gender": ["male","female", "other"],
+        "other": ["LGBT"]},
+    "Region": {
+        "city": "any",
+        "province": "Ontario"
+    },
+    "Phone":"1-800-268-9688"
+}

@@ -1,0 +1,15 @@
+{
+    "Name": "Kids Help Phone",
+    "Topics": ["Rape, Sexual Violence, Domestic Violence", "Grief and Loss","Mental Health",
+        "Stress", "Suicide","School","Alcohol & Drugs","Depression","Eating Disorders"],
+    "Description": "Kids Help Phone is Canada's only 24/7, national support service. We offer professional counselling, information and referrals and volunteer-led, text-based support to young people in both English and French.",
+    "Demographic": {
+        "age:":["teen", "child"], 
+        "gender": ["male","female", "other"],
+        "other": ["LGBT"]},
+    "Region": {
+        "city": "any",
+        "province": "Ontario"
+    },
+    "Phone":"800-668-6868"
+}

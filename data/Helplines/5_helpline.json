@@ -1,0 +1,15 @@
+{
+    "Name": "Community Torchlight",
+    "Topics": ["Grief and Loss","Mental Health",
+        "Stress", "Loneliness","School","Alcohol & Drugs","Depression","Eating Disorders"],
+    "Description": "Kids Help Phone is Canada's only 24/7, national support service. We offer professional counselling, information and referrals and volunteer-led, text-based support to young people in both English and French.",
+    "Demographic": {
+        "age:":["adult"], 
+        "gender": ["male","female", "other"],
+        "other":"none" },
+    "Region": {
+        "city": ["Guelph","Wellington", "Dufferin","Orangeville"],
+        "province": "Ontario"
+    },
+    "Phone":"1-888-821-3760"
+}

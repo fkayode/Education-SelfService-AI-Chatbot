@@ -1,0 +1,14 @@
+{
+    "Name": "National Domestic Violence Hotline",
+    "Topics": ["Rape, Sexual Violence, Domestic Violence","Abuse","Relationships"],
+    "Description": "The Hotline is part of the largest nationwide network of programs and expert resources and regularly shares insight about domestic violence with government officials, law enforcement agencies, media and the general public. ",
+    "Demographic": {
+        "age:":["adult", "teen"], 
+        "gender": ["female", "other"],
+        "other": ["LGBT"]},
+    "Region": {
+        "city": "any",
+        "province": "Ontario"
+    },
+    "Phone":"800-668-6868"
+}

@@ -1,0 +1,16 @@
+{
+    "Name": "Good2Talk",
+    "Topics": ["Rape, Sexual Violence, Domestic Violence","Mental Health",
+        "Stress","School","Alcohol & Drugs","Depression","Eating Disorders", 
+        "Relationships","loneliness","financial concerns", "transistioning"],
+    "Description": "Good2Talk is a free, confidential support service for post-secondary students in Ontario.",
+    "Demographic": {
+        "age:":["teen", "adult"], 
+        "gender": ["male","female", "other"],
+        "other": ["Student"]},
+    "Region": {
+        "city": "any",
+        "province": "Ontario"
+    },
+    "Phone":"1-866-925-5454"
+}
